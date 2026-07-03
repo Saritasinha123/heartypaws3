@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart, ShieldCheck, MapPin, Sparkles, Smile, Star } from 'lucide-react';
 import { CLINIC_INFO } from '../data';
-
+import aboutImage from "../assets/images/regenerated_image_1782989829332.jpg";
 export default function AboutSection() {
   return (
     <section id="about-section" className="py-16 md:py-24 bg-teal-50/20 font-sans">
@@ -20,7 +20,7 @@ export default function AboutSection() {
               {/* Image Frame */}
               <div className="bg-white p-3 rounded-3xl shadow-xl border border-teal-100 overflow-hidden relative">
                 <img
-                  src="/src/assets/images/regenerated_image_1782989829332.jpg"
+                  src={aboutImage}
                   alt="Certified veterinarians performing health checkup on puppy at Hearty Paws Veterinary Clinic South Delhi"
                   referrerPolicy="no-referrer"
                   width="800"
