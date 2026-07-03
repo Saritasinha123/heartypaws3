@@ -1,5 +1,8 @@
 import { Service, GalleryItem, Testimonial } from './types';
 
+import spaImage from "./assets/images/regenerated_image_1782990098115.png";
+import clinicImage from "./assets/images/regenerated_image_1782989829332.jpg";
+import catClinicImage from "./assets/images/regenerated_image_1782989930114.jpg";
 export const CLINIC_INFO = {
   name: "Hearty Paws Pet Spa & Clinic",
   tagline: "Where Every Paw Matters 🐾",
@@ -138,14 +141,14 @@ export const GALLERY_DATA: GalleryItem[] = [
     id: "g2",
     title: "Relaxing Herbal Bath Spa",
     category: "spa",
-    imageUrl: "/src/assets/images/regenerated_image_1782990098115.png",
+    imageUrl: spaImage,
     alt: "Puppy receiving warm water bath in pet spa"
   },
   {
     id: "g3",
     title: "Vet General Health Checkup",
     category: "clinic",
-    imageUrl: "/src/assets/images/regenerated_image_1782989829332.jpg",
+    imageUrl: clinicImage,
     alt: "Friendly female veterinarian checkup puppy dog"
   },
   {
@@ -173,7 +176,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     id: "g7",
     title: "Feline Vaccination Session",
     category: "clinic",
-    imageUrl: "/src/assets/images/regenerated_image_1782989930114.jpg",
+    imageUrl: catClinicImage,
     alt: "Calm tabby cat lying in clinic table"
   },
   {
