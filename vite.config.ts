@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/heartypaws3/',
+  base: '/',
 
   plugins: [react(), tailwindcss()],
 
