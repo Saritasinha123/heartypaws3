@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://heartypawspetclinic.com/sitemap.xml
+Sitemap: https://heartypawsdelhi.com/sitemap.xml
